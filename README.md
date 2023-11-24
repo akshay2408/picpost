@@ -23,8 +23,8 @@ PicPost is a simple and intuitive blogging application built with Rails 7, lever
     - yarn
 
   1. Clone the repository:
-    ```bash
-    git clone https://github.com/your_username/picpost.git
+
+  git clone https://github.com/your_username/picpost.gitrname/picpost.git
 
   2. `cd picpost`
 
@@ -32,7 +32,7 @@ PicPost is a simple and intuitive blogging application built with Rails 7, lever
 
   4. Run `yarn install`
 
-  5. `setup databse credentials in database_example.yml`
+  5. `setup databse credentials in example_database.yml`
 
   6. Run `rails db:setup`
 
@@ -46,8 +46,7 @@ PicPost is a simple and intuitive blogging application built with Rails 7, lever
 
   1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your_username/picpost.git
+  git clone https://github.com/your_username/picpost.git
 
   2. Run `cd picpost`
 
@@ -55,6 +54,6 @@ PicPost is a simple and intuitive blogging application built with Rails 7, lever
   
   4. Run `yarn install`
 
-  5. `setup databse credentials in database_example.yml`
+  5. `setup databse credentials in example_database.yml`
 
   6. Run `docker-compose up --build`
