@@ -10,6 +10,7 @@ PicPost is a simple and intuitive blogging application built with Rails 7, lever
 
 ## Technology Stack
 
+- **Ruby 3.0.0**: Programming language used in Rails development.
 - **Rails 7**: Backend framework for web development.
 - **Docker**: Containerization for development environment.
 - **StimulusJS**: Handles frontend interactions.
@@ -17,39 +18,43 @@ PicPost is a simple and intuitive blogging application built with Rails 7, lever
 - **MySQL**: Database management system.
 
 
-### Prerequisites
+## Setup without Docker
+  ### Prerequisites
+    - yarn
 
-- docker
-- yarn
-Make sure you have Docker and Yarn installed on your machine.
+  1. Clone the repository:
+    ```bash
+    git clone https://github.com/your_username/picpost.git
 
-## Setup with Docker
-1. Clone the repository:
+  2. `cd picpost`
 
-   ```bash
-   git clone https://github.com/your_username/picpost.git
+  3. Run `bundle install`
 
-2. cd picpost 
+  4. Run `yarn install`
 
-3. bundle install
+  5. `setup databse credentials in database_example.yml`
 
-4. yarn build
+  6. Run `rails db:setup`
 
-5. rails db:setup
-
-7. rails s
+  7. Run `rails s`
 
 
 ## Setup with Docker
-1. Clone the repository:
+  ### Prerequisites
+    - docker
+    - yarn
 
-   ```bash
-   git clone https://github.com/your_username/picpost.git
+  1. Clone the repository:
 
-2. cd picpost 
+    ```bash
+    git clone https://github.com/your_username/picpost.git
 
-3. bundle install
+  2. Run `cd picpost`
 
-4. yarn build
+  3. Run `bundle install`
+  
+  4. Run `yarn install`
 
-5.  docker-compose up --build
+  5. `setup databse credentials in database_example.yml`
+
+  6. Run `docker-compose up --build`
